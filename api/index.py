@@ -3548,7 +3548,7 @@ def admin_list_device_bans():
    return jsonify({"bans": list_device_bans()}), 200
 
 # ---------- Report Spam Check ----------
-REPORT_SPAM_MAX = 7
+REPORT_SPAM_MAX = 15
 REPORT_SPAM_WINDOW = 20
 REPORT_SPAM_BAN_HOURS = 1
 
