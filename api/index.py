@@ -186,7 +186,7 @@ def _get_blocked_col():
        return _blocked_col
    if _get_hb_col() is None:
        return None
-   _blocked_col = _mongo_client["yaletag"]["blocked_players"]
+   _blocked_col = _mongo_client["OCULUS TAG!"]["blocked_players"]
    try:
        _blocked_col.create_index("expireAt", expireAfterSeconds=0)
        _blocked_col.create_index("playFabId", unique=True)
@@ -200,7 +200,7 @@ def _get_violation_col():
        return _violation_col
    if _get_hb_col() is None:
        return None
-   _violation_col = _mongo_client["yaletag"]["violations"]
+   _violation_col = _mongo_client["OCULUS TAG"]["violations"]
    try:
        _violation_col.create_index("playFabId", unique=True)
    except Exception as e:
@@ -567,7 +567,7 @@ class GameInfo:
        self.TitleId = "507B1"
        self.PhotonRealtimeAppId = "f01e5654-ea3b-4ab2-bbd3-030b7c518e30"
        self.PhotonVoiceAppId = "c432e2f4-f6be-42b1-a52e-1448675a53ec"
-       self.EnforceConfigMatch = True
+       self.EnforceConfigMatch = False
        self.SecretKey = "XKRO4849GTNY6HH3W55EWK9MXO7GHJXYRPB51B96C33FEM5SCQ"
        self.AppCreds = "OC|1391693820686606|9a641deaeddcb50827d0ae23de140ddc"
        self.OculusAppId = "1391693820686606"
