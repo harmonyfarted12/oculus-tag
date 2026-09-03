@@ -572,7 +572,7 @@ class GameInfo:
        self.AppCreds = "OC|1391693820686606|9a641deaeddcb50827d0ae23de140ddc"
        self.OculusAppId = "1391693820686606"
        self.EntitlementCheck = False
-       self.appidcheck = False
+       self.appidcheck = True
        self.MaxAllowedSpeed = 9
        self.MaxAllowedArmLength = 1.45
        self.SpeedViolationThreshold = 25
@@ -2994,22 +2994,21 @@ def titledata():
               "Entries": ["KAINE", "HAZYVR", "", ""]  
           }  
       ],  
-      "BundleBoardSign": "<color=#E04E9D>YALE </color><color=#FF6250>TAG</color>",  
-      "BundleKioskButton": "<color=#E04E9D>YALE </color><color=#FF6250>TAG</color>",  
-      "BundleKioskSign": "<color=#E04E9D>YALE </color><color=#FF6250>TAG</color>",  
-      "BundleLargeSign": "<color=#E04E9D>YALE </color><color=#FF6250>TAG</color>",  
+      "BundleBoardSign": "<color=#E04E9D>OCULUS</color><color=#FF6250>TAG</color>",  
+      "BundleKioskButton": "<color=#E04E9D>OCULUS</color><color=#FF6250>TAG</color>",  
+      "BundleKioskSign": "<color=#E04E9D>OCULUS</color><color=#FF6250>TAG</color>",  
+      "BundleLargeSign": "<color=#E04E9D>OCULUS</color><color=#FF6250>TAG</color>",  
       "EmptyFlashbackText": "FLOOR TWO NOW OPEN\n FOR BUSINESS\n\nSTILL SEARCHING FOR\nBOX LABELED 2021",  
       "EnableCustomAuthentication": True,  
       "GorillanalyticsChance": 4320,  
       "LatestPrivacyPolicyVersion": "2024.09.20",  
       "LatestTOSVersion": "2024.09.20",  
-      "MOTD": "<color=#00FFFF>W</color><color=#00F5FF>E</color><color=#00EBFF>L</color><color=#00E1FF>C</color><color=#00D7FF>O</color><color=#00CDFF>M</color><color=#00C3FF>E</color> <color=#00AFFF>T</color><color=#00A5FF>O</color> <color=#0090FF>N</color><color=#0086FF>A</color><color=#007CFF>T</color><color=#0072FF>H</color> <color=#0054FF>I</color><color=#004AFF>V</color><color=#0040FF>E</color>\n<color=#BE38F3>U</color><color=#C23AE9>P</color><color=#C63DE0>D</color><color=#C93FD6>A</color><color=#CD42CD>T</color><color=#D144C3>E</color> <color=#D949B0>:</color> <color=#E04E9D>N</color><color=#E45193>O</color><color=#E8538A>W</color><color=#EC5680>R</color> <color=#F05876>U</color><color=#F45B6D>Z</color><color=#FB605A>A</color><color=#FF6250>S</color><color=#E45193>H</color><color=#E8538A>B</color><color=#EC5680>A</color><color=#F05876>C</color><color=#F45B6D>K</color> <color=#FB605A>2</color><color=#FF6250>0</color><color=#E45193>2</color><color=#E8538A>3</color>\n<color=#FFD700>F</color><color=#FFC800>O</color><color=#FFB900>U</color><color=#FFAA00>N</color><color=#FF9B00>D</color><color=#FF8C00>E</color><color=#FF7D00>R</color><color=#FF6E00>:</color> <color=#FF5F00>X</color><color=#FF5000>R</color><color=#FF4100>E</color>\n<color=#FFAB01>O</color><color=#FBA301>W</color><color=#F79C01>N</color><color=#F39401>E</color><color=#EF8C01>R</color><color=#EC8501>S</color> <color=#E47601>:</color> <color=#CC4800>L</color><color=#C84000>I</color><color=#C53900>L</color><color=#C13100>C</color><color=#BD2900>H</color><color=#B92200>U</color><color=#B51A00>P</color><color=#B11300>A</color><color=#AD0B00>,</color><color=#A90300>H</color><color=#A50000>A</color><color=#A10000>P</color><color=#9D0000>P</color><color=#990000>Y</color><color=#950000>,</color> <color=#8D0000>R</color><color=#890000>A</color><color=#850000>W</color>\n<color=#FF00FF>N</color><color=#F500F5>E</color><color=#EB00EB>W</color> <color=#D700D7>D</color><color=#CD00CD>I</color><color=#BF00BF>S</color><color=#B500B5>C</color><color=#AB00AB>O</color><color=#A100A1>R</color><color=#970097>D</color><color=#8D008D>:</color> <color=#7D007D>D</color><color=#730073>I</color><color=#690069>S</color><color=#5F005F>C</color><color=#550055>O</color><color=#4B004B>R</color><color=#410041>D</color><color=#370037>.</color><color=#2D002D>G</color><color=#230023>G</color><color=#190019>/</color><color=#0F000F>R</color><color=#050005>U</color><color=#000000>S</color><color=#0000F5>H</color><color=#0000EB>T</color><color=#0000E1>A</color><color=#0000D7>G</color>\n<color=#02FB00>R</color><color=#02F10A>U</color><color=#02E614>S</color><color=#02DC1D>H</color> <color=#02C731>#</color><color=#02BC3B>#</color><color=#01B244>#</color><color=#01A74E>#</color><color=#019D58>#</color> <color=#019262>I</color><color=#017E75>S</color> <color=#016989>N</color><color=#015E92>O</color><color=#01549C>T</color> <color=#0149A6>B</color><color=#013FB0>A</color><color=#0034B9>N</color><color=#002AC3>N</color><color=#001FCD>A</color><color=#0015D7>B</color><color=#000AE0>L</color><color=#0000EA>E</color><color=#0000EA>!</color>",
-      "SeasonalStoreBoardSign": "<color=purple>RATE THE GAME 5 STARS!</color>\n\n<color=aqua>YALE TAG",  
-      "TOS_2024.09.20": "YALE TAG",  
-      "TOBAlreadyOwnCompTxt": "YALE TAG",  
-      "TOBAlreadyOwnPurchaseBundle": "RETRO",  
-      "TOBDefCompTxt": "YALE TAG",  
-      "TOBDefPurchaseBtnDefTxt": "RETRO",  
+      "MOTD": "<color=`#00FFFF`>W</color><color=`#00F2FF`>E</color><color=`#00E6FF`>L</color><color=`#00D9FF`>C</color><color=`#00CCFF`>O</color><color=`#00BFFF`>M</color><color=`#00B2FF`>E</color> <color=`#0099FF`>T</color><color=`#008CFF`>O</color> <color=`#0073FF`>O</color><color=`#0066FF`>C</color><color=`#0059FF`>U</color><color=`#004CFF`>L</color><color=`#0040FF`>U</color><color=`#0033FF`>S</color> <color=`#001AFF`>T</color><color=`#000DFF`>A</color><color=`#0000FF`>G</color>\n<color=`#FF0000`>U</color><color=`#E81200`>P</color><color=`#D12400`>D</color><color=`#B93700`>A</color><color=`#A24900`>T</color><color=`#8B5B00`>E</color> <color=`#5D7F00`>:</color> <color=`#2EA400`>C</color><color=`#17B600`>H</color><color=`#00C800`>R</color><color=`#17C900`>I</color><color=`#2ECB00`>S</color><color=`#46CC00`>T</color><color=`#5DCD00`>M</color><color=`#74CF00`>A</color><color=`#8BD000`>S</color> <color=`#B9D300`>2</color><color=`#D1D400`>0</color><color=`#E8D600`>2</color><color=`#FFD700`>3</color>\n<color=`#FFD700`>F</color><color=`#FFD100`>O</color><color=`#FFCB00`>U</color><color=`#FFC600`>N</color><color=`#FFC000`>D</color><color=`#FFBA00`>E</color><color=`#FFB400`>R</color><color=`#FFAF00`>S</color> <color=`#FFA300`>:</color> <color=`#FF9800`>Z</color><color=`#FF9200`>O</color><color=`#FF8C00`>O</color><color=`#FF8100`>M</color> <color=`#FF6C00`>A</color><color=`#FF6100`>N</color><color=`#FF5600`>D</color> <color=`#FF4100`>H</color><color=`#FF3600`>A</color><color=`#FF2B00`>R</color><color=`#FF2000`>M</color><color=`#FF1600`>O</color><color=`#FF0B00`>N</color><color=`#FF0000`>Y</color>\n<color=`#FF00FF`>J</color><color=`#F600F6`>O</color><color=`#EC00EC`>I</color><color=`#E300E3`>N</color> <color=`#D000D0`>:</color> <color=`#BD00BD`>D</color><color=`#B400B4`>I</color><color=`#AA00AA`>S</color><color=`#A100A1`>C</color><color=`#980098`>O</color><color=`#8E008E`>R</color><color=`#850085`>D</color><color=`#7B007B`>.</color><color=`#720072`>G</color><color=`#680068`>G</color><color=`#5F005F`>/</color><color=`#550055`>7</color><color=`#4C004C`>D</color><color=`#420042`>T</color><color=`#390039`>S</color><color=`#2F002F`>J</color><color=`#260026`>D</color><color=`#1C001C`>D</color><color=`#130013`>B</color><color=`#090009`>J</color><color=`#000000`>U</color>",
+      "TOS_2024.09.20": "OCULUS TAG",  
+      "TOBAlreadyOwnCompTxt": "OCULUS TAG",  
+      "TOBAlreadyOwnPurchaseBundle": "CHRISTMAS 2023",  
+      "TOBDefCompTxt": "OCULUS TAG",  
+      "TOBDefPurchaseBtnDefTxt": "CHRISTMAS 2023",  
       "UseLegacyIAP": False  
   }  
   return jsonify(response_data)
