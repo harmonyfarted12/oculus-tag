@@ -567,11 +567,11 @@ class GameInfo:
        self.TitleId = "9EC56"
        self.PhotonRealtimeAppId = "f01e5654-ea3b-4ab2-bbd3-030b7c518e30"
        self.PhotonVoiceAppId = "c432e2f4-f6be-42b1-a52e-1448675a53ec"
-       self.EnforceConfigMatch = False
+       self.EnforceConfigMatch = True
        self.SecretKey = "GFGH5WAR987WSHJXIBZHFF7QQ3KP5W1NZ17IMB646FPTEHE5ZX"
        self.AppCreds = "OC|1218829407983954|847988422453e78b2f422706e1981fb2"
        self.OculusAppId = "1218829407983954"
-       self.EntitlementCheck = True
+       self.EntitlementCheck = False
        self.appidcheck = True
        self.MaxAllowedSpeed = 9
        self.MaxAllowedArmLength = 1.45
