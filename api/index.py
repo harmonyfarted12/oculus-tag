@@ -565,8 +565,8 @@ def try_consume_grace(oculus_id):
 class GameInfo:
    def __init__(self):
        self.TitleId = "9EC56"
-       self.PhotonRealtimeAppId = "4dbf46a1-b8e4-4121-8e83-d278f1bb403a"
-       self.PhotonVoiceAppId = "5450d102-9a1b-4185-a9f8-83d1d3193ffe"
+       self.PhotonRealtimeAppId = "f01e5654-ea3b-4ab2-bbd3-030b7c518e30"
+       self.PhotonVoiceAppId = "c432e2f4-f6be-42b1-a52e-1448675a53ec"
        self.EnforceConfigMatch = False
        self.SecretKey = "GFGH5WAR987WSHJXIBZHFF7QQ3KP5W1NZ17IMB646FPTEHE5ZX"
        self.AppCreds = "OC|1218829407983954|847988422453e78b2f422706e1981fb2"
