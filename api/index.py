@@ -1424,7 +1424,7 @@ def run_reauth_pass():
 
 @app.route("/", methods=["POST", "GET"])
 def main():
-   return "XREAC'S BACKEND7y"
+   return "OCULUS TAGS BACKEND"
 
 @app.route("/health", methods=["GET"])
 def health():
