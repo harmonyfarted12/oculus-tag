@@ -49,11 +49,11 @@ ADMIN_TOKEN = os.getenv("ADMIN_TOKEN")
 # Verify with: aapt dump badging <apk> | grep package
 EXPECTED_PACKAGE_NAME = "com.oculustag.oculustag"
 EXPECTED_APK_SIGNATURE = "6F:7F:DE:85:24:FF:1F:1B:7D:6A:16:76:5F:67:26:7F:ED:50:C2:47:59:37:6F:C7:F1:50:EA:8F:0A:A4:67:2B:60"
-ATTEST_SECRET_KEY = ""
+ATTEST_SECRET_KEY = "9a641deaeddcb50827d0ae23de140ddc"
 
 META_APP_ID = "1391693820686606"
 META_APP_SECRET = "9a641deaeddcb50827d0ae23de140ddc"
-META_ATTEST_CREDS = f"OC|1391693820686606|9a641deaeddcb50827d0ae23de140ddc"
+META_ATTEST_CREDS = "OC|1391693820686606|9a641deaeddcb50827d0ae23de140ddc"
 
 ENFORCE_HEARTBEAT = True
 HEARTBEAT_GRACE_PERIOD = 60             # 3x the 30s interval: covers 2 missed beats + cold start
@@ -575,8 +575,8 @@ class GameInfo:
        self.appidcheck = True
        self.MaxAllowedSpeed = 9
        self.MaxAllowedArmLength = 1.45
-       self.SpeedViolationThreshold = 3
-       self.ArmViolationThreshold = 3
+       self.SpeedViolationThreshold = 25
+       self.ArmViolationThreshold = 25
        self.EnableSpeedDetection = True
        self.EnableArmLengthDetection = True
        self.EnablePCVRBan = True
