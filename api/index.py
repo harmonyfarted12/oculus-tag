@@ -59,7 +59,7 @@ ENFORCE_HEARTBEAT = True
 HEARTBEAT_GRACE_PERIOD = 60             # 3x the 30s interval: covers 2 missed beats + cold start
 HEARTBEAT_ALLOW_NEW_SESSIONS = True
 
-HB_ENFORCE_SIG = False
+HB_ENFORCE_SIG = True
 HB_MAX_SKEW = 45
 PHOTON_REQUIRE_BEAT = True
 PHOTON_AUTH_GRACE = 0
