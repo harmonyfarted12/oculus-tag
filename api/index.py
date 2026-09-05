@@ -84,7 +84,7 @@ HB_NOT_READY_MAX = 5               # Increased from 3
 HB_NOT_READY_WINDOW = 15         # Increased from 30
 
 # ---------- HWID Configuration ----------
-ENFORCE_HWID = False
+ENFORCE_HWID = True
 HWID_FAILURE_LIMIT = 100
 GENERATE_PSEUDO_HWID = True
 
